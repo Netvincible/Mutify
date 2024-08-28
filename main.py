@@ -51,7 +51,7 @@ class design(RelativeLayout):
         global view
         view = ModalView(size_hint=(None, None), size=(450, 400))
 
-        con=Popup(title="About Us",title_font='Elianto',title_size=20,content=Label(text="Hi!, This is Mutify, an app developed by Netvincible,\nwhich will mute spotify when Ads are being played \nand unmute automatically when Ads are over. \nThis App also features media controls, and displays \ntrack title. Melody Saver Right?. There's a lot of hardwork \nand patience behind making of this App by a 11th grade newbie.\n also a future IITian. \nTHANK ME LATER!!! "
+        con=Popup(title="About Us",title_font='Elianto',title_size=20,content=Label(text="Hi!, This is Mutify, an app developed by Netvincible,\nwhich will mute spotify when Ads are being played \nand unmute automatically when Ads are over. \nThis App also features media controls, and displays \ntrack title. Melody Saver Right?. There's a lot of hardwork \nand patience behind making of this App by a 11th grade newbie. \nTHANK ME LATER!!! "
         , pos_hint={'center_x':0.5, 'center_y':0.7}))
         view.add_widget(con)
         
